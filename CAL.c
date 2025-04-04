@@ -5,10 +5,10 @@
 #include <stdio.h>
 
 int main() {
+	setlocale(LC_ALL, "ko_KR.UTF-8");
+
 	int Hcard, Hana, BankSal, FixedCost;
 	int MyBill, My1N;
-
-	setlocale(LC_ALL, "ko_KR.UTF-8");
 
 	printf("현대카드 사용내역 : ");
 	scanf("%d", &Hcard);
